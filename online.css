@@ -24,7 +24,7 @@ body{
  .main{
 box-shadow: 0 1px 3px 2px rgba(0,0,0,.15);
 } 
-button {
+.button-move {
     
     
     position: relative;
@@ -247,13 +247,40 @@ position: relative;
     left: -20px;
     border-radius: 10px;
 }
-.im:hover{
+.card-im:hover .im{
   left: 0px;
 }
 .card-im{
   left:20px;
-  border:0px;
+  border: 0px solid rgba(0,0,0,.125);
 }
 .card-text-content{
   font-size: 14px;
+  padding-top: 15px;
+  line-height: 1.43;
+    color: #475465;
+    cursor: pointer;
+}
+
+.learn_more{
+  padding-left:90px;
+  color:red;
+}
+#iiitb_grey_svg__Layer_1{
+  width: 100px;
+  height: 50px;
+
+}
+
+.card-title{
+  font-size: 22px;
+  padding-top:10px;
+  
+}
+.button-border{
+  
+  width:350px;
+  /* height: 40px; */
+  /* text-align: center; */
+  /* border:2px solid red; */
 }
